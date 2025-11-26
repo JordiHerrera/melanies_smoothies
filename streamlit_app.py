@@ -14,7 +14,7 @@ st.write("The name on your smoothie will be:", name_on_order)
 # --------------
 conn = st.connection("snowflake") 
 
-session = conn.session(
+session = conn.session()
 
 # session = get_active_session()
 # --------------
